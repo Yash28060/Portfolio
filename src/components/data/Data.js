@@ -1,8 +1,10 @@
 let data = [
   {
-    name: "Waste Management System",
+    name: "Game Listing Application",
     description: {
-      p: `In April 2023, I embarked on a transformative project known as the "Waste Management System." This innovative web portal empowers users to take control of their garbage pickup schedules, eliminating the traditional dependency on the garbage truck driver's reporting time. By developing this system using cutting-edge technologies like React.js, Sass, Node.js, MongoDB, and integrating the TomTom Map API, I revolutionized waste management. Users now experience enhanced convenience, reduced waiting times, and improved resource utilization. Furthermore, the integration of a chatbot within the Next.js web app achieved a remarkable 60% query resolution efficiency, streamlining communication with the query department when required.`,
+      p: `In Feb 2024, I engineered a cutting-edge web application utilizing ReactJs and Tailwind CSS, seamlessly integrating APIs to
+      import, categorize, and showcase games by genre, including trending titles.
+      Ensured optimal user experience through cross-browser compatibility and responsive design.`,
       points: [
         {
           title: "Objective",
@@ -16,14 +18,14 @@ let data = [
           title: "Technological Expertise",
           desc: "Leveraging technologies such as React.js, Sass, Node.js, MongoDB, Git, GitHub, and the TomTom Map API, I developed a robust and efficient system.",
         },
-        {
-          title: "Efficient Communication",
-          desc: "The integration of a chatbot within the Next.js web app achieved a remarkable 60% query resolution efficiency, ensuring smooth interactions and improved customer support.",
-        },
-        {
-          title: "Ongoing Improvement",
-          desc: "I am committed to refining and expanding this project to further benefit waste management processes and user experiences. Explore the code on GitHub for updates and contributions.",
-        },
+        // {
+        //   title: "Efficient Communication",
+        //   desc: "The integration of a chatbot within the Next.js web app achieved a remarkable 60% query resolution efficiency, ensuring smooth interactions and improved customer support.",
+        // },
+        // {
+        //   title: "Ongoing Improvement",
+        //   desc: "I am committed to refining and expanding this project to further benefit waste management processes and user experiences. Explore the code on GitHub for updates and contributions.",
+        // },
       ],
     },
     link: {

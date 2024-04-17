@@ -11,10 +11,10 @@ const Home = () => {
       >
         <div className=" max-w-screen-lg m-auto flex flex-col items-center justify-center h-full px-4 md:flex-row gap-32">
           <div className=" flex flex-col justify-center h-full">
-            <h2 className=" text-4xl sm:text-7xl font-bold dark:text-gray-400 mt-20">
+            <h2 className=" text-4xl sm:text-7xl font-bold dark:text-gray-300 mt-20">
               I'm a Frontend Developer
             </h2>
-            <p className=" dark:text-gray-400 py-4  max-w-md">
+            <p className=" dark:text-gray-300 py-4  max-w-md">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Laudantium autem porro, facere exercitationem alias in at neque
               officia amet omnis possimus aspernatur molestiae maiores modi

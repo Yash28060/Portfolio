@@ -5,7 +5,7 @@ function About() {
     <>
       <div
         name="about"
-        className=" w-full h-full md:h-screen dark:text-gray-400"
+        className=" w-full h-full md:h-screen dark:text-gray-300"
       >
         <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
           <div className=" pb-8">
