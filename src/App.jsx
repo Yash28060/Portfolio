@@ -6,6 +6,8 @@ import { ThemeContext } from "./context/ThemeContext";
 import { useEffect, useState } from "react";
 import "./index.css";
 import Projects from "./components/Projects";
+import Experience from "./components/Experience";
+
 
 function App() {
   const [theme, setTheme] = useState("dark");
@@ -21,7 +23,7 @@ function App() {
         <div
           className={`${theme} ${
             theme == "dark"
-              ? "bg-gradient-to-b from-black via-black to-gray-800"
+              ? "bg-gradient-to-b from-black via-gray-800 to-gray-900"
               : null
           }`}
         >
@@ -30,6 +32,7 @@ function App() {
           <About />
           <SocialLinks />
           <Projects />
+          <Experience />
         </div>
       </ThemeContext.Provider>
     </>

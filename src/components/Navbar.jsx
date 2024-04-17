@@ -36,7 +36,7 @@ const Navbar = () => {
     <>
       <div className="flex justify-between items-center w-full h-20 text-white bg-black fixed px-4 z-30 ">
         <div>
-          <h1 className=" text-5xl font-signature ml-2">Yash</h1>
+          <h1 className=" cursor-pointer text-5xl font-signature ml-2">Yash</h1>
         </div>
         <ul className=" sm:flex hidden">
           {links.map(({ id, link }) => (
@@ -80,7 +80,7 @@ const Navbar = () => {
             />
           ) : (
             <BsFillMoonFill
-              className=" text-[35px] bg-blue-gray-100 text-black rounded-full p-2 cursor-pointer"
+              className=" text-[35px] bg-blue-gray-100 text-black rounded-full p-2 cursor-pointer "
               onClick={() => {
                 setTheme("dark");
               }}
