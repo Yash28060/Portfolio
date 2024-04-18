@@ -43,7 +43,7 @@ function Experience() {
             id: 5,
             title: "Tailwind",
             image: tailwind,
-            style: 'shadow-blue-500 hover:shadow-blue-300 '
+            style: 'shadow-cyan-500 hover:shadow-cyan-300 '
         },
         {
             id: 6,
@@ -58,17 +58,17 @@ function Experience() {
             style: 'shadow-red-500 hover:shadow-red-300 '
         },
         {
-            id: 8,
+            id: 8,  
             title: "MySQL",
             image: mysql,
-            style: 'shadow-blue-500 hover:shadow-red-300 '
-        },
-        {
-            id: 9,
-            title: "Vs Code",
-            image: vscode,
             style: 'shadow-purple-500 hover:shadow-purple-300 '
         },
+        // {
+        //     id: 9,
+        //     title: "Vs Code",
+        //     image: vscode,
+        //     style: 'shadow-purple-500 hover:shadow-purple-300 '
+        // },
     ];
   return (
     <>
