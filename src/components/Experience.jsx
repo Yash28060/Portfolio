@@ -7,7 +7,7 @@ import github  from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import java from "../assets/java.png";
 import mysql from "../assets/mysql.png";
-import vscode from "../assets/vscode.jpg";
+// import vscode from "../assets/vscode.jpg";
 
 
 

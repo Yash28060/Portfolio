@@ -128,7 +128,7 @@ function Contact() {
                   </div>
                   <div className="mb-6">
                     <textarea
-                      className="w-full rounded-2xl dark:bg-white bg-blue-50 placeholder:text-md px-6 py-4"
+                      className="w-full rounded-2xl dark:bg-white bg-blue-50 placeholder:text-md px-6 py-4 text-gray-500"
                       placeholder="Your message..."
                       name="message"
                       rows="8"
