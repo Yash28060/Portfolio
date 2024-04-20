@@ -29,7 +29,7 @@ function About() {
         name="about"
         className=" w-full h-full md:h-screen dark:text-gray-300"
       >
-        <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+        <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full ">
           <div id="aboutSection" value="navAboutme">
                 <h1 ref={elementRef} className="text-4xl  inline font-bold  border-b-4 border-gray-400">About Me</h1>
                 <div id="aboutme" className="max-w-screen-lg m-auto flex flex-col items-center  h-full  md:flex-row gap-24 ">
