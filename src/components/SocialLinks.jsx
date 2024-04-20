@@ -16,19 +16,19 @@ const SocialLinks = () => {
       id: 2,
       link: "Github",
       logo: <FaGithub size={30} />,
-      href: "https://github.com/Yash28060",
+      href: "https://github.com/Yash28060?tab=repositories",
     },
     {
       id: 3,
       link: "Gmail",
       logo: <HiOutlineMail size={30} />,
-      href: "mailto:foo@gmail.com",
+      href: "mailto:yashkumarsaini@gmail.com",
     },
     {
       id: 4,
       link: "Resume",
       logo: <BsFillPersonLinesFill size={30} />,
-      href: "https://www.linkedin.com/in/yash-saini-964341228/",
+      href: "https://drive.google.com/file/d/1zVWuJSZCCE4RQDPIbWEnAcB5tSsCaRGM/view?usp=sharing",
       style: "rounded-br-md",
     },
   ];

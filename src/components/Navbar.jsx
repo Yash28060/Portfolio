@@ -40,11 +40,11 @@ const Navbar = () => {
         <div>
           <h1 className=" cursor-pointer text-5xl font-signature ml-2">Yash</h1>
         </div>
-        <ul className=" sm:flex hidden">
+        <ul className=" sm:flex hidden gap-10">
           {links.map(({ id, link }) => (
             <li
               key={id}
-              className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-125 duration-200 delay-100 "
+              className=" cursor-pointer capitalize font-medium text-gray-500  duration-500 hover:border-b- relative after:bg-cyan-500 after:absolute after:h-[2px] after:w-0 after:top-6 after:left-0 hover:after:w-[85%] after:transition-all after:duration-300 delay-150  "
             >
               <Link to={link} smooth duration={500}>
               {link}

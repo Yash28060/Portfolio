@@ -1,142 +1,114 @@
 let data = [
   {
     name: "Game Listing Application",
+    timeline: "Feb 2024",
     description: {
-      p: `In Feb 2024, I engineered a cutting-edge web application utilizing ReactJs and Tailwind CSS, seamlessly integrating APIs to
-      import, categorize, and showcase games by genre, including trending titles.
+      p: `In Feb 2024, I engineered a cutting-edge web application utilizing ReactJs and Tailwind CSS, seamlessly integrating APIs to import, categorize, and showcase games by genre, including trending titles.
       Ensured optimal user experience through cross-browser compatibility and responsive design.`,
       points: [
         {
           title: "Objective",
-          desc: `The "Waste Management System" project, initiated in April 2023, offers users the ability to schedule garbage pickups at their convenience, reducing dependency on predefined truck reporting times.`,
+          desc: `To develop a cutting-edge web application for listing and categorizing games by genre.`,
         },
         {
           title: "User-Centric Innovation",
-          desc: "This project focuses on enhancing user satisfaction and optimizing resource utilization, transforming the traditional waste management approach.",
+          desc: "Implemented features to showcase trending games and ensure optimal user experience.",
         },
         {
           title: "Technological Expertise",
-          desc: "Leveraging technologies such as React.js, Sass, Node.js, MongoDB, Git, GitHub, and the TomTom Map API, I developed a robust and efficient system.",
-        },
-        // {
-        //   title: "Efficient Communication",
-        //   desc: "The integration of a chatbot within the Next.js web app achieved a remarkable 60% query resolution efficiency, ensuring smooth interactions and improved customer support.",
-        // },
-        // {
-        //   title: "Ongoing Improvement",
-        //   desc: "I am committed to refining and expanding this project to further benefit waste management processes and user experiences. Explore the code on GitHub for updates and contributions.",
-        // },
-      ],
+          desc: "Leveraged technologies such as React.js, Tailwind CSS, Git, GitHub, Vercel.",
+        }
+      ]
     },
     link: {
       deploy: "https://www.google.com",
       github: "https://www.github.com",
-    },
-    timeline: "2020-2024",
+    }
   },
   {
-    name: "Library Management System",
+    name: "Task Listing App",
+    timeline: "Dec 2023",
     description: {
-      p: ` In July 2022, I embarked on the creation of a robust "Library Management System," a web application that offers a vast collection of free e - books across various genres, catering to diverse readers' preferences. This project not only enriches the reading experience but also streamlines library operations, cataloging, and resource tracking. By leveraging technologies such as React.js, Node.js, Bootstrap, MongoDB, Git, and GitHub, I aimed to optimize inventory control for libraries, ensuring efficient and user-friendly access to a treasure trove of digital literature.`,
+      p: `The "TaskListingApp" is a web application designed to help users manage their tasks efficiently. Users can input the tasks they need to complete, and the application displays a list of those tasks. Additionally, users have the ability to mark tasks as completed and remove them from the list.`,
       points: [
         {
           title: "Objective",
-          desc: `I developed a web-based "Library Management System" in July 2022, offering a comprehensive collection of free e-books spanning different genres.`,
+          desc: "To create a web application for managing tasks efficiently, allowing users to input, view, mark as completed, and remove tasks.",
         },
         {
-          title: "Enhanced User Experience",
-          desc: "This system greatly enhances the user experience by simplifying library operations, efficient cataloging, and precise resource tracking.",
-        },
-        {
-          title: "Technology Stack",
-          desc: "Leveraging a modern tech stack including React.js, Node.js, Bootstrap, MongoDB, Git, and GitHub, I ensured the system's reliability and scalability.",
-        },
-        {
-          title: "Optimized Inventory Control",
-          desc: "The project optimizes inventory control for libraries, ensuring that readers have convenient access to a wide range of digital books.",
-        },
-        {
-          title: "Continuous Improvement",
-          desc: `I remain committed to this project, continuously improving its features and expanding its library to provide readers with a continually enriching experience. Check out the code on GitHub"
-            for updates and contributions.`,
-        },
-      ],
-    },
-    link: {
-      deploy: "https://www.google.com",
-      github: "https://www.github.com",
-    },
-    timeline: "2020-2024",
-  },
-  {
-    name: "Student Projects Management System",
-    description: {
-      p: ` The "Student Project Management Portal" is an ongoing web application project that I've been passionately working on since June 2023. This dynamic platform aims to revolutionize academic project management by providing a seamless digital solution. It empowers students and educators by facilitating project initiation, team formation, mentor allocation, and comprehensive control over projects while offering robust progress monitoring and reporting functionalities.`,
-      points: [
-        {
-          title: "Objective",
-          desc: `My ongoing project, the "Student Project Management Portal, " is a web application designed to streamline academic project management processes.`,
-        },
-        {
-          title: "Features",
-          desc: "The portal offers a range of features, including project initiation support, team formation, mentor allocation, task management, and progress monitoring.",
+          title: "User-Centric Innovation",
+          desc: "Implemented features to enhance task management, such as marking tasks as completed and removing them from the list, providing users with a streamlined experience.",
         },
         {
           title: "Technologies",
-          desc: "I've leveraged cutting-edge technologies such as Next.js, Node.js, Sass, Tailwind CSS, Git, and GitHub to create a robust and efficient platform.",
+          desc: "React, JavaScript, CSS, HTML, GitHub.",
         },
         {
-          title: "Impact",
-          desc: "This project seeks to enhance collaboration and efficiency in academic project management, benefiting both students and educators.",
-        },
-        {
-          title: "Ongoing Work",
-          desc: "As of now, I continue to work on this project, refining its features and ensuring its seamless functionality. Stay tuned for updates and improvements!",
-        },
-      ],
+          title: "CRUD Operations",
+          desc: "Utilized CRUD (Create, Read, Update, Delete) operations for managing tasks, allowing users to add, view, update, and delete tasks as needed.",
+        }
+      ]
     },
     link: {
       deploy: "https://www.google.com",
       github: "https://www.github.com",
-    },
-    timeline: "2020-2024",
-  },
+    }
+  }
+  ,
   {
-    name: "Library Management System",
+    name: "Diet Suggesting Tool",
+    timeline: "July 2022",
     description: {
-      p: ` In July 2022, I embarked on the creation of a robust "Library Management System," a web application that offers a vast collection of free e - books across various genres, catering to diverse readers' preferences. This project not only enriches the reading experience but also streamlines library operations, cataloging, and resource tracking. By leveraging technologies such as React.js, Node.js, Bootstrap, MongoDB, Git, and GitHub, I aimed to optimize inventory control for libraries, ensuring efficient and user-friendly access to a treasure trove of digital literature.`,
+      p: `Engineered a web-based application with a BMI calculator to offer personalized diet plans and exercise schedules, fostering healthier lifestyles based on individual BMI calculations.
+      Contributed to promoting healthier living by providing users with tailored plans based on their individual BMI results.`,
       points: [
         {
           title: "Objective",
-          desc: `I developed a web-based "Library Management System" in July 2022, offering a comprehensive collection of free e-books spanning different genres.`,
+          desc: "To develop a web-based application with a BMI calculator for offering personalized diet plans and exercise schedules.",
         },
         {
-          title: "Enhanced User Experience",
-          desc: "This system greatly enhances the user experience by simplifying library operations, efficient cataloging, and precise resource tracking.",
+          title: "User-Centric Innovation",
+          desc: "Provided tailored diet plans and exercise schedules based on individual BMI results to promote healthier living.",
         },
         {
-          title: "Technology Stack",
-          desc: "Leveraging a modern tech stack including React.js, Node.js, Bootstrap, MongoDB, Git, and GitHub, I ensured the system's reliability and scalability.",
-        },
-        {
-          title: "Optimized Inventory Control",
-          desc: "The project optimizes inventory control for libraries, ensuring that readers have convenient access to a wide range of digital books.",
-        },
-        {
-          title: "Continuous Improvement",
-          desc: `I remain committed to this project, continuously improving its features and expanding its library to provide readers with a continually enriching experience. Check out the code on GitHub"
-            for updates and contributions.`,
-        },
-      ],
+          title: "Technologies",
+          desc: "Html, Javascript, Canva, Git, GitHub.",
+        }
+      ]
     },
     link: {
       deploy: "https://www.google.com",
       github: "https://www.github.com",
+    }
+  },
+  {
+    name: "Image Editing Website",
+    timeline: "Mar 2022",
+    description: {
+      p: `Image Editing project using JavaScript, leveraging properties to transform and enhance photo appearances.
+      Implemented features allowing users to modify various aspects of photos, showcasing adaptability and creative skills.`,
+      points: [
+        {
+          title: "Objective",
+          desc: "To develop an image editing website using JavaScript to enhance photo appearances.",
+        },
+        {
+          title: "User-Centric Innovation",
+          desc: "Implemented user-friendly features for modifying various aspects of photos to cater to user needs.",
+        },
+        {
+          title: "Technologies",
+          desc: "Javascript, CSS, Html, GitHub.",
+        }
+      ]
     },
-    timeline: "2020-2024",
+    link: {
+      deploy: "https://www.google.com",
+      github: "https://www.github.com",
+    }
   },
 ];
-let info = `I am Abhinav Yadav, a passionate web developer based in Meerut, Uttar Pradesh, India.I will hold a B.Tech degree in Computer Science and Engineering, completing in 2024, which equipped me with knowledge in DBMS, Computer Networks, Operating Systems, Compiler Design, and Software Project Management.
-With extensive experience in web development, backend coding, and database management, I have successfully delivered numerous projects that showcase my proficiency in the field.Python - based Data Structures and Algorithms are my forte, enabling me to create efficient and innovative solutions.
-Driven by my love for technology, I have a keen interest in exploring the intricacies of the internet, ensuring I stay up - to - date with the latest trends.Outside of coding, I indulge in my hobbies, Adobe Photoshop and Adobe Illustrator, which allow me to express my creativity.`;
+let info = `Hey there! I'm Yash Kumar Saini, a final year Computer Science and Engineering student at MIET, hailing from the vibrant city of Meerut, Uttar Pradesh.
+Passionate about web development, I've spent my B.Tech journey diving deep into the realms of CSS, JavaScript, and React, crafting dynamic and interactive web applications that not only look great but also deliver exceptional user experiences.
+ With a solid foundation in core Java, I thrive in the world of software development, constantly seeking out new challenges and opportunities to push the boundaries of what's possible.`;
 export { data, info };
