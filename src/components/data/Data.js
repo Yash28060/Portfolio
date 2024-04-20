@@ -21,8 +21,8 @@ let data = [
       ]
     },
     link: {
-      deploy: "https://www.google.com",
-      github: "https://www.github.com",
+      deploy: "https://game-searcher-iota.vercel.app/",
+      github: "https://github.com/Yash28060/GameSearcher",
     }
   },
   {
@@ -50,8 +50,8 @@ let data = [
       ]
     },
     link: {
-      deploy: "https://www.google.com",
-      github: "https://www.github.com",
+      deploy: "https://task-listing-app.vercel.app/",
+      github: "https://github.com/Yash28060/TaskListingApp",
     }
   }
   ,
@@ -77,8 +77,8 @@ let data = [
       ]
     },
     link: {
-      deploy: "https://www.google.com",
-      github: "https://www.github.com",
+      deploy: "https://yash28060.github.io/diet-tool/",
+      github: "https://github.com/Yash28060/diet-tool",
     }
   },
   {
@@ -103,8 +103,8 @@ let data = [
       ]
     },
     link: {
-      deploy: "https://www.google.com",
-      github: "https://www.github.com",
+      deploy: "https://yash28060.github.io/imageEditor/",
+      github: "https://github.com/Yash28060/imageEditor",
     }
   },
 ];

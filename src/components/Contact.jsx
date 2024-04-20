@@ -18,17 +18,17 @@ function Contact() {
             <div className="bg-white dark:bg-transparent max-w-4xl mx-auto w-full">
               <div className="grid grid-cols-6 h-full">
                 <div className="bg-blue-50 dark:bg-transparent p-10 col-span-2">
-                  <h2 className="mb-14 font-bold text-2xl md:text-4xl dark:text-gray-300 before:block before:absolute before:bg-sky-300 before:content[''] relative before:w-20 before:h-1 before:-skew-y-3 before:-bottom-4">
+                  <h2 className="mb-14 font-bold sm:text-xl md:text-2xl  dark:text-gray-300 before:block before:absolute before:bg-sky-300 before:content[''] relative before:w-20 before:h-1 before:-skew-y-3 before:-bottom-4">
                     {" "}
                     Contact Info
                   </h2>
-                  <p className="font-bold dark:text-gray-300 text-xl py-8 border-b border-blue-700">
+                  <p className="font-bold dark:text-gray-300 md:text-xl text-xs py-8 border-b border-blue-700 ">
                     Location Address
                     <span className="font-normal text-xs lg:text-sm text-blue-300 block">
                       Meerut, Uttar Pradesh
                     </span>
                   </p>
-                  <p className="font-bold   dark:text-gray-300 text-xl py-8 border-b border-blue-700">
+                  <p className="font-bold   dark:text-gray-300 md:text-xl text-xs py-8 border-b border-blue-700">
                     Email Address
                     <span className="font-normal text-xs break-words  lg:text-sm text-blue-300 block">
                       yashkumarsaini2016@gamail.com
@@ -37,41 +37,42 @@ function Contact() {
                  
                 </div>
                 <div className=" dark:bg-transparent border-l-2 p-10 col-span-4">
-                  <h2 className="mb-14 font-bold text-2xl md:text-4xl dark:text-gray-300 before:block before:absolute before:bg-sky-300 before:content[''] relative before:w-20 before:h-1 before:-skew-y-3 before:-bottom-4">
+                  <h2 className="mb-14 font-bold sm:text-xl md:text-2xl dark:text-gray-300 before:block before:absolute before:bg-sky-300 before:content[''] relative before:w-20 before:h-1 before:-skew-y-3 before:-bottom-4">
                     Message Me Directly
                   </h2>
                   <form action="https://getform.io/f/pbqgegwb" method="POST">
-                  <div className="grid gap-6 mb-6 grid-cols-2">
+                  <div className="grid md:grid-cols-2 md:gap-6">
                     <div className="relative z-0 w-full mb-6 group">
                       <input
-                        type="text"
-                        name="fname"
-                        id="floating_first_name"
+                        type="tel"
+                        pattern="[0-9]{10}"
+                        name="phone"
+                        id="floating_phone"
                         className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                         placeholder=" "
                         required
                       />
                       <label
-                        htmlFor="floating_first_name"
-                        className="peer-focus:font-medium absolute text-sm  dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                        htmlFor="floating_phone"
+                        className="peer-focus:font-medium absolute text-sm dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                       >
-                        First name *
+                        First Name *
                       </label>
                     </div>
                     <div className="relative z-0 w-full mb-6 group">
                       <input
                         type="text"
-                        name="lname"
-                        id="floating_last_name"
+                        name="company"
+                        id="floating_company"
                         className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                         placeholder=" "
                         required
                       />
                       <label
-                        htmlFor="floating_last_name"
+                        htmlFor="floating_company"
                         className="peer-focus:font-medium absolute text-sm  dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                       >
-                        Last name *
+                        Last Name * 
                       </label>
                     </div>
                   </div>
