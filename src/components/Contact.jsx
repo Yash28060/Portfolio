@@ -3,12 +3,9 @@ import React from "react";
 function Contact() {
   return (
     <>
-      <div
-        name="contact"
-        className=" h-full dark:text-gray-300"
-      >
+      <div name="contact" className=" h-full dark:text-gray-300">
         <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full  ">
-          <div className="pb-8" style="margin-top: 4rem;">
+          <div className="pb-8" style={{ marginTop: "4rem" }}>
             <p className="text-4xl font-bold inline border-b-4 border-gray-500">
               Contact
             </p>
